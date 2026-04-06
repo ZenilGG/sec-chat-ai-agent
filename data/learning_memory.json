@@ -1,0 +1,61 @@
+{
+  "runs": [
+    {
+      "run_id": "7b223cf9",
+      "timestamp": "2026-04-06T13:07:16.484871",
+      "quality_score": 8.0,
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "TSLA",
+        "AMZN",
+        "META"
+      ],
+      "total_tweets": 50,
+      "evaluation_summary": "Fallback rule-based evaluation",
+      "next_run_plan": {
+        "priority_tickers": [
+          "NVDA",
+          "MSFT",
+          "TSLA"
+        ],
+        "data_quality_fixes": [
+          "Increase tweet sample to 200/ticker"
+        ],
+        "prompt_adjustments": "Focus on providing more specific data-backed answers"
+      }
+    },
+    {
+      "run_id": "b2a0d5fc",
+      "timestamp": "2026-04-06T13:11:39.307894",
+      "quality_score": 8.0,
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "TSLA",
+        "AMZN",
+        "META"
+      ],
+      "total_tweets": 50,
+      "evaluation_summary": "Fallback rule-based evaluation",
+      "next_run_plan": {
+        "priority_tickers": [
+          "NVDA",
+          "MSFT",
+          "TSLA"
+        ],
+        "data_quality_fixes": [
+          "Increase tweet sample to 200/ticker"
+        ],
+        "prompt_adjustments": "Focus on providing more specific data-backed answers"
+      }
+    }
+  ],
+  "best_practices": [
+    "Fetched data successfully",
+    "Sentiment analysis completed"
+  ],
+  "known_issues": [
+    "LLM evaluation unavailable \u2014 check OPENROUTER_API_KEY"
+  ]
+}
